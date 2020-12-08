@@ -49,15 +49,15 @@ const ThemeNavbar = (props) => {
               className="navbar-collapse d-flex justify-content-between align-items-center"
               id="navbar-mobile"
             >
-              <div className="bookmark-wrapper">
+              {/* <div className="bookmark-wrapper">
                 <NavbarBookmarks
                   sidebarVisibility={props.sidebarVisibility}
                   handleAppOverlay={props.handleAppOverlay}
                 />
-              </div>
+              </div> */}
               {props.horizontal ? (
                 <div className="logo d-flex align-items-center">
-                  {/* <div className="brand-logo mr-50"></div> */}
+                  <div className="brand-logo mr-50"></div>
                   <h2 className="text-primary brand-text mb-0">Open Warta</h2>
                 </div>
               ) : null}
